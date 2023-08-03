@@ -1,26 +1,26 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2023-08-3', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到武术散打协会', url: 'http://wushusanda.top/' },
+    { title: '更多问题请查看下方文章', url: 'http://wushusanda.top/' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'TANGLY1024.COM',
-  HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_1: '武协生活',
+  HERO_TITLE_2: '与训练',
+  HERO_TITLE_3: 'wushusanda.top',
+  HERO_TITLE_4: '',
+  HERO_TITLE_5: '新生入社，请查看这里',
+  HERO_TITLE_LINK: '武术散打协会',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HERO_CATEGORY_1: { title: '协会简介', url: '/tag/必看精选' },
+  HERO_CATEGORY_2: { title: '日常训练', url: '/tag/热门文章' },
+  HERO_CATEGORY_3: { title: '社外活动', url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '推荐',
@@ -28,15 +28,15 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '你好！我们是武术散打协会',
+    '👊 小伙伴,一起学散打'
+    '💪 强健体魄,增进友谊'
+    '🤝 共同进步,相互鼓励'
+    '🏋️‍♀️ 挑战自我,自信加分'
+    '🤼‍♀️ 交流切磋,团队合作'
+    '✨ 散打运动,充实校园生活'
   ],
-  INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'http://wushusanda.top/', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -102,7 +102,7 @@ const CONFIG = {
   SOCIAL_CARD_TITLE_1: '交流频道',
   SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  SOCIAL_CARD_URL: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=F3kjAglbm2Yjv33Nk46Pdaqjar1Cs05z&authKey=v0GywEK3zosB1iThgWJAf1SHrBBYgQm%2F6cUj2LlJ3lXVxFmLgCWJ4h%2Bukcwh%2Bvn1&noverify=0&group_code=891928010',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
